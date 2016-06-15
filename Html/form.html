@@ -1,0 +1,38 @@
+<!--HTML forms are used to collect user input.
+The <form> element defines an HTML form:
+The <input> element is the most important form element.-->
+<form>
+//text input
+  First name:<br>
+  <input type="text" name="firstname"><br>
+  Last name:<br>
+  <input type="text" name="lastname">
+
+//Submit button
+ <input type="submit" value="Submit">
+
+//radio button
+<input type="radio" name="gender" value="male" checked> Male<br>
+  <input type="radio" name="gender" value="female"> Female<br>
+  <input type="radio" name="gender" value="other"> Other
+</form>
+
+// Element (Drop-Down List)
+<select name="cars">
+  <option value="volvo">Volvo</option>
+  <option value="saab">Saab</option>
+  <option value="fiat">Fiat</option>
+  <option value="audi">Audi</option>
+</select>
+
+//Textarea element
+<textarea name="message" rows="10" cols="30">
+The cat was playing in the garden.
+</textarea>
+
+//<keygen> Element
+<form action="action_page.php">
+Username: <input type="text" name="user">
+Encryption: <keygen name="security">
+<input type="submit">
+</form> 
